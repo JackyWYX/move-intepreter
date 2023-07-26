@@ -28,6 +28,8 @@ The data conversion works for all data types in ./move/operations/*.move. A gene
 
 The ABI of the move structure can be obtained from deployed smart contracts on chain. Please refer to `src/index.ts` for details.
 
+**Note**: When finishing the assignment, do not create a pull request for submission.
+
 
 ## Getting Started
 ### Prerequisites
