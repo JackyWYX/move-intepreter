@@ -20,6 +20,16 @@ type CreateSigner {
 }
 ```
 
+Note the structure QueryID is defined as follows:
+
+```
+struct QueryID<T> has copy, drop {
+    id: T,
+    // true means the id is a reference in OrderContext, false means the id is a value
+    is_ref: bool,
+}
+```
+
 ### Scope
 
 The data conversion works for all data types in ./move/operations/*.move. A generic data conversion for move types is not within the scope of this project.
