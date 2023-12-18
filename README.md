@@ -15,7 +15,7 @@ into the following TypeScript type:
 
 ```
 // TS type
-type CreateSigner {
+interface CreateSigner {
     address: SuiAddress,
 }
 ```
