@@ -31,7 +31,7 @@ struct QueryID<T> has copy, drop {
 
 ### Scope
 
-The data conversion works for all data types in ./move/operations/*.move. A generic data conversion for move types is not within the scope of this project.
+The data conversion works for all data types in ./move/operations/*.move. A general data conversion for move types is not within the scope of this project.
 
 ### How to get ABI
 
