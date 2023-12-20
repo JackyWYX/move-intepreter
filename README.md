@@ -25,7 +25,6 @@ Note the structure QueryID is defined as follows:
 ```
 struct QueryID<T> has copy, drop {
     id: T,
-    // true means the id is a reference in OrderContext, false means the id is a value
     is_ref: bool,
 }
 ```
